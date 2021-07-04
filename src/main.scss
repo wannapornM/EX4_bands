@@ -1,0 +1,45 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: #eef2f3;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+img {
+    width: 183.6px;
+    height: 137.7px;
+    display: block;
+}
+
+.bands-live-listing {
+    display: grid;
+    grid-template-columns: repeat(5, 183.6px);
+    grid-gap: 25px;
+    justify-content: center;
+    margin: 100px 50px auto;
+}
+.band {
+    max-width: auto;
+    height: 300px;
+    background: white;
+}
+.album-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    padding-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.artist-title {
+    font-size: 16px;
+    color: #333;
+    padding-left: 10px;
+}
+.gen-text {
+    font-size: 14px;
+    color: #7c7a7a;
+    padding-left: 10px;
+}
